@@ -32,7 +32,7 @@
 [jsfft]:https://github.com/dntj/jsfft
 [libhackrf]:https://github.com/mossmann/hackrf/tree/master/host/libhackrf/src
 [py-hackrf]:https://github.com/hathcox/py-hackrf
-[shinysdr]:[https://github.com/kpreid/shinysdr](https://github.com/kpreid/shinysdr)
+[shinysdr]:https://github.com/kpreid/shinysdr
 
 
 
