@@ -26,6 +26,17 @@
 
 ## 工作日志
 ------
+
+2014.7.13
+>* 编写报告[week_1]
+
+
+2014.7.12
+>* 拿到与[Raspberry Pi]类似的一个开发板[BeagleBone Black]并进行测试，发现很完美，自带的系统已经集成了[Cloud9]
+
+2014.7.11
+>* 重装系统，配置gnuradio环境
+
 2014.7.10
 >* 阅读[libhackrf]与[py-hackrf]源代码
 >* 查找js的fft实现代码，参考项目：[jsfft]
@@ -64,4 +75,9 @@
 [ajax]:http://baike.baidu.com/subview/1641/5762264.htm?fr=aladdin
 [node]:https://github.com/joyent/node
 [django]:https://github.com/django/django
+[Raspberry Pi]:http://www.raspberrypi.org/
+[BeagleBone Black]:http://beagleboard.org/black
+[Cloud9]:https://github.com/ajaxorg/cloud9
+[week_1]:https://github.com/aguardar/wf4hf/blob/master/report/Week_1.md
+
 
