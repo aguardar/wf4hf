@@ -38,8 +38,10 @@
 #问题记录
 ------ 
 
+>* [csdncode] 第三方账户push有问题（把项目建到[github]，然后导入[csdncode]） 
 >* [shinysdr]环境搭建失败
->* linux下python2.7中测试时json编码有问题（升级解决） 
+>* linux下python2.7中测试时json编码有问题（升级解决）
+
 
 
 ------
@@ -60,5 +62,7 @@
 [BeagleBone Black]:http://beagleboard.org/black
 [Cloud9]:https://github.com/ajaxorg/cloud9
 [week_1]:https://github.com/aguardar/wf4hf/blob/master/report/Week_1.md
+[csdncode]:https://code.csdn.net/
+[github]:https://github.com/
 
 
