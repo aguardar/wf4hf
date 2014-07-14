@@ -9,8 +9,9 @@ Welcome to wf4hf's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
-hello
+   :maxdepth: 1
+    
+    hello
 
 
 Indices and tables
