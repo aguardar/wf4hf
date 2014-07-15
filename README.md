@@ -14,6 +14,14 @@
 
 # 工作日志
 ------
+2014.7.15
+>* 拿到[hackrf]硬件进行测试
+
+
+2014.7.14
+>* 项目集成sphinx文档[文档地址],目前文档内容为空，只有一个框架
+
+
 2014.7.13
 >* 编写报告[week_1]
 
@@ -64,5 +72,6 @@
 [week_1]:https://github.com/aguardar/wf4hf/blob/master/report/Week_1.md
 [csdncode]:https://code.csdn.net/
 [github]:https://github.com/
-
+[文档地址]:http://wf4hf.readthedocs.org/en/latest/
+[hackrf]:https://github.com/mossmann/hackrf
 
