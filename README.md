@@ -19,7 +19,7 @@
 
 
 2014.7.14
->* 配置项目文档框架[文档地址]
+>* 配置项目[文档]框架
 
 
 2014.7.13
@@ -72,6 +72,6 @@
 [week_1]:https://github.com/aguardar/wf4hf/blob/master/report/Week_1.md
 [csdncode]:https://code.csdn.net/
 [github]:https://github.com/
-[文档地址]:http://wf4hf.readthedocs.org/en/latest/
+[文档]:http://wf4hf.readthedocs.org/en/latest/
 [hackrf]:https://github.com/mossmann/hackrf
 
