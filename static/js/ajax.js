@@ -1,10 +1,8 @@
   function _$call(method,params,callback){
-        var ret;
         for(key in params){
             params[key] = JSON.stringify(params[key])
         }
         params.method = method;
-        var ret;
         $.ajax({
             type    : "GET",
             url     : "http://127.0.0.1:9999/do",

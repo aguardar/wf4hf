@@ -1,19 +1,56 @@
-﻿/*
-* 不关心的非必须参数传递null,（右侧可不传）
-*/
+﻿var welcomemsg="hello ,this project have not finished,if you have question,please connect me,QQ:1315469509 ,email:zk_michael@qq.com";
+
+console.debug(welcomemsg);
+
+var hostaddr={};
+hostaddr.address="127.0.0.1";
+hostaddr.port="9999";
+  function _$jsonpcall(method,params,callback){
+        var ret;
+        for(key in params){
+            params[key] = JSON.stringify(params[key])
+        }
+        params.method = method;
+        // params.callback = '?';
+		uri="http://"+hostaddr.address+":"+hostaddr.port+"/do";
+        var ret;
+        $.ajax({
+            type    : "GET",
+            url     : uri,
+            async   : true,
+            data    : params,
+            dataType :"jsonp",
+            crossDomain: true,
+            success : function(data){
+                if(callback!=undefined&&callback!=null){
+                    callback(data);
+                }
+                console.debug('ret',data);
+            },
+            error   : function(xmlHttp,textStatus){
+                alert('error');
+            }
+        });
+    }
 var com={
     init:function(){}, 
 
-    test:function(count,retstr){
-        var params = {};
-        if(count!=undefined&&count!=null){
-            params.count = count;
-        }
-        if(retstr!=undefined&&retstr!=null){
-            params.retstr = retstr;
-        }
-        return _$call('test',params);
+    test:function(callback){
+	
+      var params = {};
+        return _$call('test',params,callback);
+    }
+	,
+	sethostaddress:function(addr,port,callback){
+	var params = {};
+       hostaddr.address=addr;
+	   hostaddr.port=port;
+	   _$call = _$jsonpcall;
+        return _$call('test',params,callback);
     }
 
 };
+function hello(data){
+console.debug(data.retmsg);
+}
 com.init();

@@ -2,8 +2,6 @@
 	var lcdOn = "rgb(9,9,9)"
 	var lcdOff = "rgb(180,210,180)"
 	var lcdBg = "rgb(196,226,196)"
-    console.debug("hello hackrf");
-	
 	// LCD for receiver frequency
 	var rx0lcdFrequency = new SegmentDisplay("rx0lcdFrequency");
 	rx0lcdFrequency.pattern = "####.#####";
