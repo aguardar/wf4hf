@@ -14,7 +14,14 @@
 
 # 工作日志
 ------
-2014.7.15
+
+
+
+
+2014.7.19
+>*仿[webradio]制作初级界面，并修改通讯框架，利用跨域技术实现前端与服务端彻底分离，并且利用github pages服务将前端布置在[项目主页]上
+
+2014.7.15-18
 >* 拿到[hackrf]硬件进行测试
 
 
@@ -74,4 +81,5 @@
 [github]:https://github.com/
 [文档]:http://wf4hf.readthedocs.org/en/latest/
 [hackrf]:https://github.com/mossmann/hackrf
-
+[webradio]:https://github.com/mikestir/webradio
+[项目主页]:http://aguardar.github.io/wf4hf/
