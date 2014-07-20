@@ -16,7 +16,8 @@
 ------
 
 
-
+2014.7.20
+>* 尝试集成libhackrf，编写报告[Week_2]
 
 2014.7.19
 >* 仿[webradio]制作初级界面，并修改通讯框架，利用跨域技术实现前端与服务端彻底分离，并且利用github pages服务将前端布置在[项目主页]上
@@ -83,3 +84,4 @@
 [hackrf]:https://github.com/mossmann/hackrf
 [webradio]:https://github.com/mikestir/webradio
 [项目主页]:http://aguardar.github.io/wf4hf/
+[Week_2]:https://github.com/aguardar/wf4hf/blob/master/report/Week_2.md
